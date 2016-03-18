@@ -1,7 +1,7 @@
-SRCS = simple_shell.c
+SRCS = simple_shell.c utils.c
 OBJS = $(SRCS:.c=.o)
 BIN = simple_shell
-CFLAGS = -Wall -g -std=c11
+CFLAGS = -Wall -g
 LDFLAGS = -g
 CC = gcc
 
